@@ -1,0 +1,13 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'FacebookLogin' do
+	pod 'FBSDKCoreKit', '~> 4.6.0'
+	pod 'FBSDKLoginKit', '~> 4.6.0'
+	pod 'FBSDKShareKit', '~> 4.6.0'
+	pod 'XCDYouTubeKit', '~> 2.2.0'
+end
+
+target 'FacebookLoginTests' do
+
+end
