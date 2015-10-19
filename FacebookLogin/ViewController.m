@@ -30,6 +30,7 @@
     [super viewDidAppear:animated];
     [self FCMloginUserInViewController:self WithCompletionHandler:^(BOOL seccess, NSString *token, NSError *loginError) {
         NSLog(@"%@", loginError.description);
+        NSLog(@"Hello");
     }];
 }
 
